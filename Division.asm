@@ -27,7 +27,7 @@ main proc
      ; dividend user input
      
      mov ah, 1h ; user input
-     int 21 ; interrupt  
+     int 21h ; interrupt  
      ;al = by default input taker  (register)
      mov bl, al ;bl = dividend
      ; ascii
